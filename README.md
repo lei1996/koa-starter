@@ -44,3 +44,7 @@ if (path && method) {
 核心的逻辑就是通过获取 class 中的所有的方法，然后遍历，通过装饰器挂载到 `koa-router` 中
 不过由于用到了 `class.prototype` 获取所有的实例方法，所以，如果 class 中的方法是静态方法，那么就会收取不到，而且只能在 `tsconfig.compilerOptions.target = 'es5'` 的时候才能用，因为 es5 实现 class 是直接将实例属性和方法挂载到了 object 上面
 </details>
+
+## References 🔗
+
+- [koa-utils](https://github.com/TTiip/koa-utils)
