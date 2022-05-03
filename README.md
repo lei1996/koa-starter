@@ -7,7 +7,7 @@
 - ESM
 - Koa-Router
 
-## Quick Start 🚀
+## Getting Started 🚀
 
 ```bash
 # install deps
