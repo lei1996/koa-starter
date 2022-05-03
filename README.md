@@ -7,6 +7,19 @@
 - ESM
 - Koa-Router
 
+## Quick Start
+
+```bash
+# install deps
+pnpm i
+# start app
+pnpm start
+```
+
+The koa web servcice will listen on port 3000 default.
+
+If you want to change the default listen port, Please go to `.env` file.
+
 ## How it works? 📝
 <details>
 <summary>查看装饰器相关信息</summary>
