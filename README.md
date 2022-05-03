@@ -5,7 +5,7 @@
 我们知道，可以使用 `koa-router` 来描述一个路由：
 
 ```ts
-router.get('/', ctx => {})
+router.get('/', (ctx) => {})
 ```
 
 而装饰器要做的事情，其实就是将 `@GET` 以及其函数，转换为上文的写法
@@ -18,13 +18,13 @@ const method: Methods = Reflect.getMetadata('method', target.prototype, key)
 const handler: any = target.prototype[key]
 const middlewares: any[] = Reflect.getMetadata('middlewares', target.prototype, key) || []
 if (path && method) {
-    const prefixCoverPath = prefix === '/' ? path : `${prefix}${path}`
-    // 转换为这个 router['GET']('xxxxxx') 的写法
-    if (middlewares.length) {
-        router[method](prefixCoverPath, ...middlewares, handler)
-    } else {
-        router[method](prefixCoverPath, handler)
-    }
+  const prefixCoverPath = prefix === '/' ? path : `${prefix}${path}`
+  // 转换为这个 router['GET']('xxxxxx') 的写法
+  if (middlewares.length)
+    router[method](prefixCoverPath, ...middlewares, handler)
+  else
+    router[method](prefixCoverPath, handler)
+
 }
 ```
 
