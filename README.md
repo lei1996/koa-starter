@@ -1,4 +1,4 @@
-# Koa Stater 
+# Koa Starter 
 
 ## Features ✨
 
