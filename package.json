@@ -22,6 +22,8 @@
   },
   "devDependencies": {
     "@alexzhang1030/eslint-config": "1.1.1",
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-conventional": "^16.2.4",
     "@types/koa": "2.13.4",
     "@types/koa-bodyparser": "4.3.7",
     "@types/koa-router": "7.4.4",
