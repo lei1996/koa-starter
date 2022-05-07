@@ -21,7 +21,7 @@
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
-    "@alexzhang1030/eslint-config": "1.1.1",
+    "@alexzzz/eslint-config": "^1.3.0",
     "@commitlint/cli": "^16.2.4",
     "@commitlint/config-conventional": "^16.2.4",
     "@types/koa": "2.13.4",
