@@ -18,7 +18,7 @@ specifiers:
   koa-router: ^11.0.0
   koa-session: ^6.2.0
   koa2-cors: ^2.0.6
-  lint-staged: 13.0.2
+  lint-staged: 13.0.3
   nodemon: 2.0.16
   reflect-metadata: ^0.1.13
   ts-node: 10.9.1
@@ -45,7 +45,7 @@ devDependencies:
   '@types/node': 17.0.31
   eslint: 8.20.0
   husky: 8.0.1
-  lint-staged: 13.0.2
+  lint-staged: 13.0.3
   nodemon: 2.0.16
   ts-node: 10.9.1_l47be6km5p57gglrggidw5gsgm
   typescript: 4.6.4
@@ -2829,8 +2829,8 @@ packages:
     resolution: {integrity: sha512-7ylylesZQ/PV29jhEDl3Ufjo6ZX7gCqJr5F7PKrqc93v7fzSymt1BpwEU8nAUXs8qzzvqhbjhK5QZg6Mt/HkBg==}
     dev: true
 
-  /lint-staged/13.0.2:
-    resolution: {integrity: sha512-qQLfLTh9z34eMzfEHENC+QBskZfxjomrf+snF3xJ4BzilORbD989NLqQ00ughsF/A+PT41e87+WsMFabf9++pQ==}
+  /lint-staged/13.0.3:
+    resolution: {integrity: sha512-9hmrwSCFroTSYLjflGI8Uk+GWAwMB4OlpU4bMJEAT5d/llQwtYKoim4bLOyLCuWFAhWEupE0vkIFqtw/WIsPug==}
     engines: {node: ^14.13.1 || >=16.0.0}
     hasBin: true
     dependencies:
