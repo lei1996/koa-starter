@@ -21,7 +21,7 @@ specifiers:
   lint-staged: 13.0.2
   nodemon: 2.0.16
   reflect-metadata: ^0.1.13
-  ts-node: 10.8.0
+  ts-node: 10.9.1
   typescript: 4.6.4
 
 dependencies:
@@ -47,7 +47,7 @@ devDependencies:
   husky: 8.0.1
   lint-staged: 13.0.2
   nodemon: 2.0.16
-  ts-node: 10.8.0_l47be6km5p57gglrggidw5gsgm
+  ts-node: 10.9.1_l47be6km5p57gglrggidw5gsgm
   typescript: 4.6.4
 
 packages:
@@ -1240,7 +1240,7 @@ packages:
     dependencies:
       '@types/node': 17.0.31
       cosmiconfig: 7.0.1
-      ts-node: 10.8.0_l47be6km5p57gglrggidw5gsgm
+      ts-node: 10.9.1_l47be6km5p57gglrggidw5gsgm
       typescript: 4.6.4
     transitivePeerDependencies:
       - '@swc/core'
@@ -3994,8 +3994,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /ts-node/10.8.0_l47be6km5p57gglrggidw5gsgm:
-    resolution: {integrity: sha512-/fNd5Qh+zTt8Vt1KbYZjRHCE9sI5i7nqfD/dzBBRDeVXZXS6kToW6R7tTU6Nd4XavFs0mAVCg29Q//ML7WsZYA==}
+  /ts-node/10.9.1_l47be6km5p57gglrggidw5gsgm:
+    resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
       '@swc/core': '>=1.2.50'
